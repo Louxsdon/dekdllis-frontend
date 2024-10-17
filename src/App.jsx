@@ -222,11 +222,11 @@ export default function App({ auth, laravelVersion, phpVersion }) {
                 </div>
               </div>
 
-              <section className="flex flex-col lg:flex-row gap-12 items-center justify-evenly pt-16 max-w-6xl mx-auto">
+              <section className="flex flex-col lg:flex-row gap-12 items-center justify-evenly pt-16 max-w-6xl mx-auto overflow-hidden">
                 {/* contact image */}
-                <div className="relative  w-[280px] lg:w-[340px] h-[280px] lg:h-[340px] bg-white border-4 rounded-[63px] rotate-45 items-center justify-center">
+                <div className="relative  w-[260px] lg:w-[340px] h-[260px] lg:h-[340px] bg-white border-4 rounded-[63px] rotate-45 items-center justify-center">
                   <div className="absolute top-0 right-0 z-50 -rotate-45">
-                    <div className="relative -top-32 right-10 items-center justify-center flex rounded-full p-4 lg:p-6 bg-gradient-to-r border-4 border-white group-hover:border-white  text-white  from-[#1C0181] to-[#4760FF]">
+                    <div className="relative -top-32 right-8 lg:right-10 items-center justify-center flex rounded-full p-4 lg:p-6 bg-gradient-to-r border-4 border-white group-hover:border-white  text-white  from-[#1C0181] to-[#4760FF]">
                       <Headset size={50} />
                       <div className="bg-white absolute -bottom-3 -right-1 rounded-full overflow-hidden p-5"></div>
                     </div>
