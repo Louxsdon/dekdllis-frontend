@@ -209,7 +209,7 @@ export default function App({ auth, laravelVersion, phpVersion }) {
           </section>
 
           {/* Get in touch */}
-          <section className="p-5 lg:p-20 bg-[#DD5500] text-secondary-content">
+          <section className="p-5 lg:p-20 bg-[#DD5500] text-secondary-content overflow-hidden">
             <div className="container mx-auto">
               <div className="section-header text-center">
                 <h2 className="text-4xl font-extrabold text-white">
@@ -222,7 +222,7 @@ export default function App({ auth, laravelVersion, phpVersion }) {
                 </div>
               </div>
 
-              <section className="flex flex-col lg:flex-row gap-12 items-center justify-evenly pt-16 max-w-6xl mx-auto overflow-hidden">
+              <section className="flex flex-col lg:flex-row gap-12 items-center justify-evenly pt-16 max-w-6xl mx-auto ">
                 {/* contact image */}
                 <div className="relative  w-[260px] lg:w-[340px] h-[260px] lg:h-[340px] bg-white border-4 rounded-[63px] rotate-45 items-center justify-center">
                   <div className="absolute top-0 right-0 z-50 -rotate-45">
